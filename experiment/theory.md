@@ -41,7 +41,7 @@ AND B) OR (Cin AND (A XOR B))**
 
 **Ripple Carry Adder**
 
-![](/images/ripple_carry_adder.png)
+![](images/ripple_carry_adder.png)
 
 Multiple full adders can be used to create adders of greater bit lengths. Each full adder uses the Cout of the previous adder as its Cin. This kind of adder is a ripple carry adder, since the carry bits "ripple" through the full adder stages. Note that the first (and only the first) full adder may be replaced by a half adder.
 
