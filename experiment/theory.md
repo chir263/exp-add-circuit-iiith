@@ -9,13 +9,12 @@ A half adder adds two 1-bit binary numbers A and B to generate a 1-bit SUM (S) a
 
 **Truth Table**
 
-|A|B|CARRY|SUM|
-|-|-|-----|---|
-|0|0|0    |0  |
-|0|1|0    |1  |	
-|1|0|0    |1  |
-|1|1|1    |0  |
-
+| A   | B   | CARRY | SUM |
+| --- | --- | ----- | --- |
+| 0   | 0   | 0     | 0   |
+| 0   | 1   | 0     | 1   |
+| 1   | 0   | 0     | 1   |
+| 1   | 1   | 1     | 0   |
 
 Full Adder
 
@@ -27,27 +26,23 @@ A full adder adds two 1-bit binary numbers along with a carry brought in and pro
 Cout = (A
 AND B) OR (Cin AND (A XOR B))**
 
-
 **Truth Table**
 
-|A|B|Cin|Cout|S|
-|-|-|---|----|-|
-|0|0|0  |0   |0|
-|1|0|0  |0   |1|
-|0|1|0  |0   |1|
-|1|1|0  |1   |0|
-|0|0|1  |0   |1|
-|1|0|1  |1   |0|
-|0|1|1  |1   |0|
-|1|1|1  |1   |1|
-
+| A   | B   | Cin | Cout | S   |
+| --- | --- | --- | ---- | --- |
+| 0   | 0   | 0   | 0    | 0   |
+| 1   | 0   | 0   | 0    | 1   |
+| 0   | 1   | 0   | 0    | 1   |
+| 1   | 1   | 0   | 1    | 0   |
+| 0   | 0   | 1   | 0    | 1   |
+| 1   | 0   | 1   | 1    | 0   |
+| 0   | 1   | 1   | 1    | 0   |
+| 1   | 1   | 1   | 1    | 1   |
 
 **Ripple Carry Adder**
 
-<img src="images/ripple_carry_adder.png">
+![](/experiment/images/ripple_carry_adder.png)
 
 Multiple full adders can be used to create adders of greater bit lengths. Each full adder uses the Cout of the previous adder as its Cin. This kind of adder is a ripple carry adder, since the carry bits "ripple" through the full adder stages. Note that the first (and only the first) full adder may be replaced by a half adder.
-
-
 
 **Refer to the text book Digital Design by Morris Mano to know more about these circuits.**
