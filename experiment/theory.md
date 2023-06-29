@@ -16,4 +16,4 @@ For a very brief theory of "Modes of Encryption" and their analysis, click here]
 
 ![](images/ofbm.png)
 
-   Output FeedBack modehd
+   Output FeedBack mode
