@@ -1,6 +1,3 @@
 {
-    "postCreateCommand": [
-        "cd experiment/simutlation",
-        "python3 -m http.server"
-    ]
+    "postCreateCommand": "echo hello world"
 }
