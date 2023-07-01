@@ -1,3 +1,6 @@
 {
-    "postCreateCommand": "yarn install"
+    "postCreateCommand": [
+        "cd experiment/simulation",
+        "python3 -m http.server"
+    ]
 }
