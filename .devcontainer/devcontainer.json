@@ -5,7 +5,6 @@
     "vscode.css",
     "vscode.javascript"
   ],
-  "postCreateCommand": "cd /experiment/simulation && nohup python3 -m http.server 8000 &",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
