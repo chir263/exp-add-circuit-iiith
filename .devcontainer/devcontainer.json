@@ -11,5 +11,5 @@
   "containerEnv": {
     "DISABLE_TELEMETRY": "true"
   },
-  "postCreateCommand": "bash /root/startup.sh"
+  "postCreateCommand": "bash /startup.sh"
 }
